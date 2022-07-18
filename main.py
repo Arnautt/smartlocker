@@ -21,8 +21,7 @@ def main():
     video_capture = cv2.VideoCapture(0)
 
     process_this_frame = True
-    t_end = time.time() + 30
-    while time.time() < t_end:
+    while True:
         time.sleep(SLEEPING_TIME)
         _, frame = video_capture.read()
         small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)

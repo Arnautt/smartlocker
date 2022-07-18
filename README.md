@@ -27,8 +27,6 @@ It allows you to both automatically lock the screen when you leave your workstat
 as well as unlock the computer when you return.
 Without ever typing anything on the keyboard.
 
-> this is a citation
-
 
 ## :wrench: Installation
 
