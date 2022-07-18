@@ -2,19 +2,19 @@
 <br />
 <h1>
 <p align="center">
-  <img src="logo.png" alt="Logo" width="280" height="100">
+  <img src="logo.png" alt="Logo" width="280" height="70">
 
 
 </h1>
   <p align="center">
-    Python package to lock your computer smarter.
+    Python package to (un)lock your computer smarter.
     <br />
   </p>
 </p>
 
 <p align="center">
   <a href="#about-the-project">About The Project</a> •
-  <a href="#installation">Installation</a> •
+  <a href="#:wrench:-installation">Installation</a> •
   <a href="#usage">How To Use it</a> 
 </p>  
 
