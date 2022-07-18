@@ -2,7 +2,7 @@
 <br />
 <h1>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Arnautt/smartlocker/logo.png" alt="Logo" width="140" height="110">
+  <img src="https://raw.githubusercontent.com/Arnautt/smartlocker/master/logo.png" alt="Logo" width="140" height="110">
 
 
 </h1>
