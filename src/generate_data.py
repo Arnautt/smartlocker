@@ -1,0 +1,3 @@
+# dossier caché où on enregistre des photos
+# mettre des arguments genre cb de photos, tous les cb de temps etc...
+# interactif avec user input + montrer la caméra pour voir ce qu'on prend
