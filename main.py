@@ -11,7 +11,7 @@ from src.utils import Computer
 load_dotenv()
 PASSWORD = os.getenv("PASSWORD")
 SLEEPING_TIME = int(os.getenv("SLEEPING_TIME"))
-FACES_LOCATION = "./.faces/"
+FACES_LOCATION = os.getenv("FACES_LOCATION")
 
 
 def main():

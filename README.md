@@ -51,8 +51,19 @@ You're now ready to use the application.
 
 ## :unlock: Usage
 
+1. Configure an environment file (`.env` file) with the following features : 
 
-1. In order to do face recognition, you must pass to the algorithm some pictures of you, with as many angles as possible. 
+```env
+PASSWORD=
+SLEEPING_TIME= 
+FACES_LOCATION=
+```
+
+where password is your personal password to unlock the computer,
+sleeping time is the number of seconds between two camera scans to know which action to perform (lock, unlock or nothing),
+and faces location is the path where the pictures of you are stored (you can for example make a hidden folder).
+
+2. In order to do face recognition, you must pass to the algorithm some pictures of you, with as many angles as possible. 
 Let us guide you by running the following command : 
 
 ```bash
@@ -60,7 +71,7 @@ make generate-data
 ```
 
 
-2. Run the main script and enjoy !
+3. Run the main script and enjoy !
 
 
 ```bash
@@ -69,8 +80,10 @@ make main
 
 ## :question: How does it work 
 
+:arrow_right: *Technical stack:* OpenCV, face_recognition
+
+
 technologies, classes...
 
-- tech : face_recognition, cv2, 
 - optimization, une frame sur deux 
 - classes
