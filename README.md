@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="#about-the-project">About The Project</a> •
-  <a href="#:wrench:-installation">Installation</a> •
+  <a href="#wrench-installation">Installation</a> •
   <a href="#usage">How To Use it</a> 
 </p>  
 
