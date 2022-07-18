@@ -89,7 +89,7 @@ There are then only 4 cases as illustrated below.
 
 
 <p align="center">
-  <img src="imgs/flowchart.png" width="300" height="200"/>
+  <img src="imgs/flowchart.png" width="350" height="250"/>
 </p>
 
 
