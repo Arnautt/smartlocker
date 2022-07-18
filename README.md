@@ -85,9 +85,6 @@ algorithm built with deep learning, to detect if I am in front of the camera or 
 There are then only 4 cases as illustrated below.
 
 
-![Flowchart](imgs/flowchart.png)
-
-
 <p align="center">
   <img src="imgs/flowchart.png" width="700" height="450"/>
 </p>
