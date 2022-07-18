@@ -88,6 +88,9 @@ There are then only 4 cases as illustrated below.
 ![Flowchart](imgs/flowchart.png)
 
 
+<p align="center">
+  <img src="imgs/flowchart.png" width="300" height="200"/>
+</p>
 
 
 To reduce the complexity of the program, once we have performed a step above,
