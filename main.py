@@ -15,7 +15,7 @@ FACES_LOCATION = os.getenv("FACES_LOCATION")
 
 
 def main():
-    """doc"""
+    """main script"""
     computer = Computer()
     known_face_encodings = get_known_encodings(FACES_LOCATION)
     video_capture = cv2.VideoCapture(0)
@@ -36,7 +36,7 @@ def main():
                 else:
                     print(f"On frame but not locked: sleep {SLEEPING_TIME} seconds.")
 
-            else: # not on frame
+            else:  # not on frame
                 if computer.is_locked():
                     print(f"Not on frame and computer locked : sleep {SLEEPING_TIME} seconds.")
                 else:

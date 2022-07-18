@@ -2,7 +2,7 @@
 <br />
 <h1>
 <p align="center">
-  <img src="logo.png" alt="Logo" width="280" height="70">
+  <img src="imgs/logo.png" alt="Logo" width="280" height="70">
 
 
 </h1>
@@ -80,10 +80,20 @@ make main
 
 ## :question: How does it work 
 
-:arrow_right: *Technical stack:* OpenCV, face_recognition
+The basic idea is to use [face recognition](https://github.com/ageitgey/face_recognition), a state-of-the-art face recognition
+algorithm built with deep learning, to detect if I am in front of the camera or not.
+There are then only 4 cases as illustrated below.
 
 
-technologies, classes...
+![Flowchart](imgs/flowchart.png)
 
-- optimization, une frame sur deux 
-- classes
+
+
+
+To reduce the complexity of the program, once we have performed a step above,
+the program does nothing for a number of seconds determined by the configuration file.
+
+The actions at the bottom of the graph are simply executed through the os package and bash commands.
+
+
+:arrow_right: *Technical stack:* Python, OpenCV, face_recognition
