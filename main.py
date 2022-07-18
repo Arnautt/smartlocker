@@ -11,13 +11,13 @@ from src.utils import Computer
 load_dotenv()
 PASSWORD = os.getenv("PASSWORD")
 SLEEPING_TIME = int(os.getenv("SLEEPING_TIME"))
-faces_location = "./.faces/"
+FACES_LOCATION = "./.faces/"
 
 
 def main():
     """doc"""
     computer = Computer()
-    known_face_encodings = get_known_encodings(faces_location)
+    known_face_encodings = get_known_encodings(FACES_LOCATION)
     video_capture = cv2.VideoCapture(0)
 
     process_this_frame = True

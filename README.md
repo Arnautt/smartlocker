@@ -36,8 +36,8 @@ The first step is to clone the repository, by doing :
 
 ```bash
 cd my/application/path
-git clone lien/git/vers/le/depo
-cd my-app-name
+git clone git@github.com:Arnautt/smartlocker.git
+cd smartlocker
 ```
 
 Then, install a virtual environment and all the necessary packages :
@@ -53,7 +53,7 @@ You're now ready to use the application.
 
 
 1. In order to do face recognition, you must pass to the algorithm some pictures of you, with as many angles as possible. 
-Let us guide you by running the following script : 
+Let us guide you by running the following command : 
 
 ```bash
 make generate-data
