@@ -47,7 +47,4 @@ def main():
 
 
 if __name__ == "__main__":
-    # TODO :
-    #  ajouter les reqs
-    #  tests unitaires + mlops
     main()

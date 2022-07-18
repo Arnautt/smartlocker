@@ -16,7 +16,7 @@
   <a href="#rocket-about-the-project">About The Project</a> •
   <a href="#wrench-installation">Installation</a> •
   <a href="#unlock-usage">How To Use it</a> •
-  <a href="#question-how-does-it-work">How Does It Work</a> •
+  <a href="#question-how-does-it-work">How Does It Work</a> 
 </p>  
 
 ## :rocket: About The Project
