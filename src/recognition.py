@@ -5,8 +5,13 @@ import face_recognition
 
 def get_known_encodings(images_path):
     """doc"""
-    all_faces = [face_recognition.load_image_file(os.path.join(images_path, face)) for face in
-                 os.listdir(images_path)]
+    all_faces = []
+    for face in os.listdir(images_path):
+        try:
+            new_face = face_recognition.load_image_file(os.path.join(images_path, face))
+            all_faces.append(new_face)
+        except:
+            pass
     known_face_encodings = [face_recognition.face_encodings(face)[
         0] for face in all_faces]
     return known_face_encodings
