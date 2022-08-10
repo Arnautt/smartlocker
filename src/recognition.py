@@ -4,7 +4,19 @@ import face_recognition
 
 
 def get_known_encodings(images_path):
-    """doc"""
+    """
+    Get all known face encodings
+
+    Parameters
+    ----------
+    images_path: str
+        Path where your face image are stored
+
+    Returns
+    -------
+    known_face_encodings: list
+        All know face encodings
+    """
     all_faces = []
     for face in os.listdir(images_path):
         try:
@@ -19,8 +31,14 @@ def get_known_encodings(images_path):
 
 def am_i_on_frame(rgb_small_frame, known_face_encodings):
     """
-    Find all the faces and face encodings in the current frame of video
-    and find if match with known encodings
+    Find all the faces in the current frame of video and test if match with known encodings
+
+    Parameters
+    ----------
+    rgb_small_frame: np.array
+        Frame from the video
+    known_face_encodings: list
+        All known face encodings
     """
     face_locations = face_recognition.face_locations(rgb_small_frame)
     face_encodings = face_recognition.face_encodings(

@@ -29,7 +29,6 @@ if __name__ == "__main__":
         else:
             pass
 
-
     print(f"Done. Took {n_picture} pictures.")
     video_capture.release()
     cv2.destroyAllWindows()

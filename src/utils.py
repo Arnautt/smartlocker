@@ -6,12 +6,11 @@ class Computer:
     """
     Simple class to interact with your computer
     """
-
     def __init__(self):
         pass
 
     def is_locked(self):
-        """changer de langue possiblement"""
+        """Test if the computer is locked or not"""
         cmd = "gnome-screensaver-command -q"
         process = Popen(cmd.split(), stdout=PIPE, stderr=PIPE)
         stdout, _ = process.communicate()
@@ -24,10 +23,10 @@ class Computer:
             return False
 
     def lock(self):
-        """doc"""
+        """Lock the computer"""
         os.system('gnome-screensaver-command --lock')
 
     def unlock(self, pwd):
-        """doc"""
+        """Unlock the computer given the password"""
         os.popen(
             f'xdotool key Return && xdotool type {pwd} && xdotool key Return')

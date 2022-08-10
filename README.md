@@ -76,6 +76,9 @@ make generate-data
 make main
 ```
 
+
+**:warning: Remark:** Currently only work for Ubuntu and computer with French/English language
+
 ## :question: How does it work 
 
 The basic idea is to use [face recognition](https://github.com/ageitgey/face_recognition), a state-of-the-art face recognition

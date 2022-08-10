@@ -15,7 +15,7 @@ FACES_LOCATION = os.getenv("FACES_LOCATION")
 
 
 def main():
-    """main script"""
+    """Main script"""
     computer = Computer()
     known_face_encodings = get_known_encodings(FACES_LOCATION)
     video_capture = cv2.VideoCapture(0)
