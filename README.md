@@ -77,7 +77,7 @@ make main
 ```
 
 
-**:warning: Remark:** Currently only work for Ubuntu and computer with French/English language
+**Remark :** Currently only work for Ubuntu and computer with French/English language
 
 ## :question: How does it work 
 

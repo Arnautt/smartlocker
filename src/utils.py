@@ -6,6 +6,7 @@ class Computer:
     """
     Simple class to interact with your computer
     """
+
     def __init__(self):
         pass
 

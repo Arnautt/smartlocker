@@ -20,7 +20,8 @@ def get_known_encodings(images_path):
     all_faces = []
     for face in os.listdir(images_path):
         try:
-            new_face = face_recognition.load_image_file(os.path.join(images_path, face))
+            new_face = face_recognition.load_image_file(
+                os.path.join(images_path, face))
             all_faces.append(new_face)
         except:
             pass

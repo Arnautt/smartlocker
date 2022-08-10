@@ -1,7 +1,7 @@
-import cv2
 import os
-from dotenv import load_dotenv
 
+import cv2
+from dotenv import load_dotenv
 
 if __name__ == "__main__":
     # Configuration
